@@ -1,0 +1,161 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: helvetica;
+}
+
+body {
+  background-color: grey;
+  background: url('../img/image.jpg') repeat-y #ddeea5 left top;
+  height: 3000px;
+}
+
+#header {
+  color: blue;
+}
+
+h3 {
+  color: red;
+}
+
+h3.style {
+  color: yellow;
+
+}
+h3:active {
+  color: blue;
+}
+p {
+  font-size: 1.1em;
+  text-indent: 1.1em;
+}
+p.style {
+  background-color: white;
+
+}
+p i {
+  color: magenta;
+}
+p.last, b {
+  font-size: 50px;
+  color: green;
+  }
+p#example::first-letter{
+  color: red;
+}
+
+p#example::first-line{
+  color: green;
+}
+.href {
+  color: #5f1a1a;
+}
+
+.href:hover {color: green;}
+
+.href:active {color: blue;}
+
+.href:visited {color: red;}
+
+p:hover {background-color: red;}
+
+#textStyles:hover {
+  font-size: 20px;
+}
+#textStyles {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: comic, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  line-height: 220%;
+}
+#testBlock {
+  border: 5px inset silver;
+  border-bottom: 3px dashed red;
+  height: 120px;
+  width: 250px;
+  float: right;
+  position: relative;
+  background-color: yellow;
+  margin: 50px;
+  margin-top: 50px;
+  padding: 15px;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+header {
+  width: calc(100% - 20px);
+  height: 50px;
+  background-color: white;
+  border-bottom: solid silver;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #333;
+  font-family: Comic;
+  float: left;
+}
+
+footer {
+  width: calc(100% - 20px);
+  height: 50px;
+  margin-top: 20px;
+  background-color: white;
+  border-top: solid silver;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #333;
+  float: left;
+  font-family: Comic;
+}
+
+article, aside {
+  background-color: #fafafa;
+  height: 400px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  margin-top: 20px;
+  float: left;
+
+}
+
+article {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+aside {
+  width: 25%;
+  padding: 25px;
+}
+
+aside ul {
+  list-style-position: inside;
+  list-style-type: lower-alpha;
+}
+
+.fixedWindow {
+  border: 3px dashed;
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  position: fixed;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.spanBlock {
+  display: block;
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  overflow: auto;
+}
