@@ -43,11 +43,28 @@
 //           window.location = "http://google.com";//если все правильно заполнено, перенаправляем пользователя на указанную страницу
 //         }
 //       }
+//Таймеры
+        // var counter = 0;
+        // var id = setInterval ('myFunct_1()', 1000);
+        // function myFunct_1 (){
+        //   counter++;
+        //   alert('Ceconds passed - ' + counter);
+        //   if (counter == 3) clearInterval(id);
+        // }
+        //
+        //
+        // function timer (){
+        //   counter++;
+        //   document.getElementById("count").innerHTML = counter;
+        //   setTimeout("timer()", 1000);
+        // }
+
 
     </script>
   </head>
   <body>
-
+  <!-- <body onload="timer()">
+    Seconds passed <span id="count">-1</span> -->
     <!-- <form action="" method="post" name="test" id="form">
       <label for="name">Name:</label>
       <input type="text" name="name" placeholder="Your name" id="name"><br /><br />
@@ -148,10 +165,33 @@
         // test ();
         // document.write('Global is equal to ' + global + ", variable i is equal to " + i);
 
+//Объекты и классы ООП. Встроенный класс Math
+        // var text = "Pi is equal to " + Math.PI; //Math это встроенный в javaScript класс, к которому можно обращаться для вызова математических функций и констант
+        // text += "\nE is equal to " + Math.E;
+        // text += "\nModule -7 is equal to " + Math.abs(-7);
+        // text += "\nSinus 0.3 is equal to " + Math.sin(0.3);
+        // text += "\nRandom is equal to " + Math.random();
+        // text += "\nRandom from 0 to 10 is equal to " + Math.floor(Math.random() * 10);
+        // alert(text);
+//Встроенный класс date
+        var date = new Date();
+        text = "Сейчас год - " + date.getFullYear();
+        text += "\nСейчас месяц - " + date.getMonth();
+        text += "\nСейчас день - " + date.getDate();
+        text += "\nСейчас часов - " + date.getHours();
+        text += "\nСейчас минут - " + date.getMinutes();
+        text += "\nСейчас секунд - " + date.getSeconds();
+        //alert (text);
 
-
-
-
+        var date = new Date (2000, 0, 12, 14, 23, 43);
+        date.setMinutes(42);
+        text = "Сейчас год - " + date.getFullYear();
+        text += "\nСейчас месяц - " + date.getMonth();
+        text += "\nСейчас день - " + date.getDate();
+        text += "\nСейчас часов - " + date.getHours();
+        text += "\nСейчас минут - " + date.getMinutes();
+        text += "\nСейчас секунд - " + date.getSeconds();
+        alert (text);
 
 
 
