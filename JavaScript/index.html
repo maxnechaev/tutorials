@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+    <!-- <script type="text/javascript" href='javascript.js'></script> -->
+<!-- События -->
+    <script type="text/javascript">
+      // function buttonClick (button){
+      //   alert ('You pressed the button. The button is named ' + button.name + ', value is ' + button.value);
+      // }
+      // var counter = 0;
+      // function onMouseCounter(element){
+      //   counter++;
+      //   element.innerHTML = 'This text was hovered by mouse ' + counter + ' times.';
+      // }
+//       function valid(form){
+//         var fail = false;
+//         var name = form.name.value;
+//         var password = form.password.value;
+//         var RePassword = form.RePassword.value;
+//         var gender = form.gender.value;
+//         var email = form.email.value;
+// //регулярные выражения
+//         //var adr_pattern = /[0-9a-z_-.]+@[0-9a-z_-]+\.[a-z]{2,5}/i;
+// //{2,5} - указывает, что доменное первого уровня должен содержать от 2 до 5 символов. i указывает, что нам не важен регистр
+//
+//         if(name == "" || name == " ")
+//           fail = "You entered incorrect name";
+//         else if(email.split('@').length - 1 == 0)
+//           fail = "You entered incorrect e-mail";
+//         // else if(adr_pattern.test(email) == false)
+//         //   fail = "You entered incorrect e-mail";
+//         else if(password == "")
+//           fail = "You entered incorrect password";
+//         else if(RePassword != password)
+//           fail = "Password does not match";
+//         else if(gender == "")
+//           fail = "Please select gender";
+//         if(fail)
+//           alert(fail);
+//         else {
+//           window.location = "http://google.com";//если все правильно заполнено, перенаправляем пользователя на указанную страницу
+//         }
+//       }
+
+    </script>
+  </head>
+  <body>
+
+    <!-- <form action="" method="post" name="test" id="form">
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="Your name" id="name"><br /><br />
+      <label for="email">E-mail:</label>
+      <input type="text" name="email" placeholder="E-mail" id="email"><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Password" id="password"><br /><br />
+      <label for="RePassword">Password check:</label>
+      <input type="password" name="RePassword" placeholder="Password again" id="RePassword"><br /><br />
+      <span for="gender">Gender:</span>
+      <input type="radio" name="gender" id="male" value="male"><label for="male">Male </label>
+      <input type="radio" name="gender" id="female" value="female"><label for="female"> Female</label><br /><br />
+      <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Done">
+    </form> -->
+    <!-- <input type="button" name="b" value="Click me!" onclick="buttonClick (this)"/>
+
+    <span onmouseover="onMouseCounter(this)">This text was hovered by mouse 0 times.</span> -->
+
+    <script type="text/javascript">
+//       for (var i = 0; i < 10; i += 3){
+//         if (i % 3 == 0 && i != 0) continue;
+//         if (i == 8) break;
+//         document.write(i + " Hello <br />");
+//       }
+//       document.write('<br />');
+//       var x = 0;
+//       while (x < 10) {
+//           document.write(x + "<br />");
+//           x += 2;
+//       }
+//       document.write('<br />');
+//       y = 1000;
+//       do {
+//         document.write("Cycle is working");
+//       } while (y < 100);
+//
+// Всплывающие окна
+//       var person;
+//       if (confirm ('Are you sure?')){
+//         person = prompt ('Hi, what is your name?')
+//         alert ('Hello, ' + person);
+//       } else
+//         alert ('Person is not sure');
+// Массивы
+        // var arr = new Array('str', 1.23, 7, false);
+        // for (var i = 0; i < arr.length; i++){
+        //   document.write(arr[i] + '<br />');
+        // }
+        // arr = new Array();
+        // for (var i = 0; i < 10; i++){
+        //   arr[i] = i * 3;
+        //   document.write(arr[i] + '<br />');
+        // }
+        // var sum = 0;
+        // for (i = 0; i < arr.length; i++)
+        //   sum += arr[i];
+        // document.write('Среднее арифметическое - ' + (sum / arr.length));
+
+//Двумерные массивы
+        // var arr_1 = new Array ();
+        // var arr_2 = new Array ();
+        // var arr_3 = new Array ();
+        // for (var i = 0; i <= 5; i++) arr_1[i] = i;
+        // for (var i = 0; i <= 10; i++) arr_2[i] = i;
+        // for (var i = 0; i <= 15; i++) arr_3[i] = i;
+        //
+        // var arr = new Array (arr_1, arr_2, arr_3);
+        // //document.write(arr[0][1]);
+        // for (var x = 0; x < arr.length; x++) {
+        //   for (var j = 0; j < arr[x].length; j++){
+        //       document.write(arr[x][j] + ' ');
+        //   }
+        //   document.write('<br />');
+        // }
+
+//Функции
+        // var sum;
+        // function print (text){
+        //   document.write(text);
+        // }
+        //
+        // function count (x, y){
+        //   sum = x + y;
+        // }
+        // print('Hello <br /> World<br />');
+        // count (5, 7);
+        // print (sum);
+
+// Локальные и глобальные переменные
+
+        // var global = 12;//глобальная переменная
+        // var i = 10;//глобальная переменная
+        //
+        // function test (){
+        //   global++;
+        //   var i = 5;//объявляем локальную переменную
+        // }
+        // test ();
+        // document.write('Global is equal to ' + global + ", variable i is equal to " + i);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
